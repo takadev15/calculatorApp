@@ -30,6 +30,16 @@ class calculatorbrain with ChangeNotifier {
     }
   }
 
+  void runCalculator(){
+    for (int idx = 0; idx < operator.length; idx++){
+      if(operator[idx] == "x" || operator[idx] == "+"){
+        double num1 = number[idx];
+        double num2 = number[idx + 1];
+        double result = 0.0;
+      }
+    }
+  }
+
 }
 
 
